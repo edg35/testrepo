@@ -1,0 +1,10 @@
+{
+	"id": "te-github-sync",
+	"name": "TE GitHub Sync",
+	"version": "0.1.0",
+	"minAppVersion": "1.13.0",
+	"description": "Keep your notes in sync with a GitHub repository, without needing to know git.",
+	"author": "",
+	"authorUrl": "",
+	"isDesktopOnly": true
+}
