@@ -1,0 +1,49 @@
+/* Status bar -------------------------------------------------------------- */
+
+.github-sync-status {
+	cursor: default;
+}
+
+.github-sync-status.is-needs-setup {
+	color: var(--text-muted);
+}
+
+.github-sync-status.is-read-only {
+	color: var(--text-muted);
+}
+
+/* A change is in progress -- reads as active, not muted. */
+.github-sync-status.is-editing {
+	color: var(--text-accent);
+}
+
+/* Device-code modal ------------------------------------------------------- */
+
+.github-sync-device-code {
+	font-family: var(--font-monospace);
+	font-size: 2em;
+	letter-spacing: 0.15em;
+	text-align: center;
+	user-select: all;
+	padding: var(--size-4-3);
+	margin: var(--size-4-3) 0;
+	background-color: var(--background-secondary);
+	border-radius: var(--radius-m);
+}
+
+.github-sync-device-status {
+	color: var(--text-muted);
+	text-align: center;
+	min-height: 1.5em;
+}
+
+.github-sync-device-status.is-error {
+	color: var(--text-error);
+}
+
+.github-sync-device-buttons {
+	display: flex;
+	gap: var(--size-4-2);
+	justify-content: center;
+	margin-top: var(--size-4-3);
+}
