@@ -1,0 +1,10 @@
+# Plugin data can contain tokens — never commit it
+**/.obsidian/plugins/*/data.json
+
+# Obsidian workspace state — local, not shared
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+
+# OS cruft
+.DS_Store
+Thumbs.db
